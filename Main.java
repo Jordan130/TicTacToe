@@ -4,8 +4,8 @@ public class Main{
 	public static void main(String[] args) {
 		
 		char[][] board = {{' ', ' ', ' '},
-				          {' ', ' ', ' '},
-				          {' ', ' ', ' '}};
+			          {' ', ' ', ' '},
+			          {' ', ' ', ' '}};
 		
 		printBoard(board);
 		
@@ -21,6 +21,7 @@ public class Main{
 			}
 			printBoard(board);
 		}	
+		
 		printBoard(board);
 	}
 
