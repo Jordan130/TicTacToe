@@ -51,16 +51,16 @@ public class Main{
 	private static boolean hasContestantWon(char[][] board, char symbol) {
 		   // check rows
 		if((board[0][0] == symbol && board[0][1] == symbol && board[0][2] == symbol) ||
-		   (board[1][0] == symbol && board[1][1] == symbol && board[1][2] == symbol)	||
+		   (board[1][0] == symbol && board[1][1] == symbol && board[1][2] == symbol) ||
 		   (board[2][0] == symbol && board[2][1] == symbol && board[2][2] == symbol) ||
 		   
-		   //check columns
+		   // check columns
 		   (board[0][0] == symbol && board[1][0] == symbol && board[2][0] == symbol) ||
-		   (board[0][1] == symbol && board[1][1] == symbol && board[2][1] == symbol)	||
+		   (board[0][1] == symbol && board[1][1] == symbol && board[2][1] == symbol) ||
 		   (board[0][2] == symbol && board[1][2] == symbol && board[2][2] == symbol) ||
 		   
-		   //check diagonals
-		   (board[0][0] == symbol && board[1][1] == symbol && board[2][2] == symbol)	||
+		   // check diagonals
+		   (board[0][0] == symbol && board[1][1] == symbol && board[2][2] == symbol) ||
 		   (board[0][2] == symbol && board[1][1] == symbol && board[2][0] == symbol)) {
 			return true;
 		}
